@@ -9,6 +9,50 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+The video will be cached after it is played.
+
+You can implement it as follows;
+
+Before the class;
+
+import MKVideoCacher
+
+
+Inside the class;
+
+var player : AVPlayer?
+var layer : AVPlayerLayer?
+var manager : VideoCache?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.manager = VideoCache(limit : 256)
+        if let manager = self.manager, let url = URL(string: url1) {
+            self.player = manager.setPlayer(with : url)
+            layer = AVPlayerLayer(player: player)
+            if let layer = self.layer{
+                layer.frame = self.view.frame
+                self.view.layer.addSublayer(layer)
+                player?.play()
+            }
+        }
+    }
+
+If you want to remove the cache when app is terminated, add this code to appDelegate;
+
+Before the class;
+
+import MKVideoCacher
+
+
+Inside the class;
+    func applicationWillTerminate(_ application: UIApplication) {
+        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        let videoCache = VideoCache(limit : 256)
+        videoCache.appWillTerminate()
+    }
+
 ## Requirements
 
 ## Installation
