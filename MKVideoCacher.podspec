@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   s.source_files = 'MKVideoCacher/Classes/*'
 
-  s.resources = "MKVideoCacher/Classes/*"
+  s.resources = "MKVideoCacher/Classes/*.xcdatamodeld"
   s.resource_bundles = {
      'MKVideoCacher' => ['MKVideoCacher/Classes/*.xcdatamodeld']
    }
