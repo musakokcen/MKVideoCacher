@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKVideoCacher'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A Cocoapod to cache your video files from AVPlayer.'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.swift_versions = '5.0'
-  s.source_files = 'MKVideoCacher/**/*'
+  s.source_files = 'MKVideoCacher/**/*',  'MKVideoCacher/**/*.{h,m}'
   s.ios.framework =  'MKVideoCacher/**/*.swift'
-
+  s.resources = "MKVideoCacher/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,xcdatamodeld}"
    s.resource_bundles = {
      'MKVideoCacher' => ['MKVideoCacher/Classes/*.xcdatamodeld']
    }
