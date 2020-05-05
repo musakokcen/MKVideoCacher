@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_versions = '5.0'
   s.source_files = 'MKVideoCacher/**/*'
-
+  s.ios.framework =  'MKVideoCacher/**/*.swift'
 
    s.resource_bundles = {
      'MKVideoCacher' => ['MKVideoCacher/Classes/*.xcdatamodeld']
