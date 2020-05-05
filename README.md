@@ -15,14 +15,14 @@ You can implement it as follows;
 
 Before the class;
 
-import MKVideoCacher
+    import MKVideoCacher
 
 
 Inside the class;
 
-var player : AVPlayer?
-var layer : AVPlayerLayer?
-var manager : VideoCache?
+    var player : AVPlayer?
+    var layer : AVPlayerLayer?
+    var manager : VideoCache?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,14 +43,14 @@ If you want to remove the cache when app is terminated, add this code to appDele
 
 Before the class;
 
-import MKVideoCacher
+    import MKVideoCacher
 
 
 Inside the class;
+      
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-        let videoCache = VideoCache(limit : 256)
-        videoCache.appWillTerminate()
+       let videoCache = VideoCache(limit : 256)
+       videoCache.appWillTerminate()
     }
 
 ## Requirements
