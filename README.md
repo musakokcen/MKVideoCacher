@@ -7,6 +7,12 @@
 
 ## Example
 
+
+Add this code to your Podfile;
+
+    pod 'MKVideoCacher', :git => 'https://github.com/musatrtr/MKVideoCacher'
+
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 The video will be cached after it is played.
