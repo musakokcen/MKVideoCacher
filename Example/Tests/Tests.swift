@@ -13,9 +13,15 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testPlayer() {
+        let url1 =  "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+        
+        let manager = VideoCache(limit : 256)
+        let player = manager.setPlayer(with: URL(string: url1)!)
+        player.play()
+        
+        XCTAssert(player.currentItem?.asset != nil)
+        
     }
     
     func testPerformanceExample() {

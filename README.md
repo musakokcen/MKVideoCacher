@@ -22,7 +22,7 @@ pod 'MKVideoCacher'
 
 ## Author
 
-musatrtr@gmail.com, musa.kokcen@pineal.com.tr
+musatrtr@gmail.com
 
 ## License
 
