@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_versions = '5.0'
   s.source_files = 'MKVideoCacher/**/*'
-  #s.resources = "MKVideoCacher/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,xcdatamodeld}"
-  s.resource_bundles = {
+  s.resources = "MKVideoCacher/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,xcdatamodeld}"
+ # s.resource_bundles = {
      'MKVideoCacher' => ['MKVideoCacher/Classes/*.xcdatamodeld']
    }
 
