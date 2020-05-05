@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MKVideoCacher_Example' do
+  pod 'MKVideoCacher', :path => '../'
+
+  target 'MKVideoCacher_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
