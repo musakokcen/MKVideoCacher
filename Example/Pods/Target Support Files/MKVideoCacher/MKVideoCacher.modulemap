@@ -1,0 +1,6 @@
+framework module MKVideoCacher {
+  umbrella header "MKVideoCacher-umbrella.h"
+
+  export *
+  module * { export * }
+}

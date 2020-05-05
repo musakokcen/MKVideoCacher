@@ -1,0 +1,16 @@
+PODS:
+  - MKVideoCacher (0.1.0)
+
+DEPENDENCIES:
+  - MKVideoCacher (from `../`)
+
+EXTERNAL SOURCES:
+  MKVideoCacher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKVideoCacher: fa1146e05664694b0815a60aba0558a08cc23b08
+
+PODFILE CHECKSUM: 482cdc03c6ef5958beb1f40329b1b7e71cde815d
+
+COCOAPODS: 1.9.1

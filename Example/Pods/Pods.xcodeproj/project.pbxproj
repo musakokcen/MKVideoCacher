@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C72338A27674034C2A5815F8FCB850 /* MKVideoCacher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8069FC9D7C57AE12B1B178FFF4FD660C /* MKVideoCacher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		124758C8A7E2FE117FF0410284019084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2E1081C774C988C35F80994285D3EC73 /* Pods-MKVideoCacher_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A40F66D73AAC6DC6F6EBAAAEE38E6516 /* Pods-MKVideoCacher_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F62E4489F67F1354D4B5D275BAEDD3 /* Pods-MKVideoCacher_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 876421716F64CB3A2EC9D188EEBAF8B7 /* Pods-MKVideoCacher_Example-dummy.m */; };
+		512406DCD73149C9D17E9711940E9518 /* Pods-MKVideoCacher_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A2DDF5F64F7C7407C945603BAE1CC3 /* Pods-MKVideoCacher_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69400224F68FD610EE9063745F988B78 /* MKVideoCacher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AD11C1326C52A764802EE6BBF37B99 /* MKVideoCacher-dummy.m */; };
+		695602188E90B5090CCAE45B124BB373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77A737F8FB5E79347C71991928582BD3 /* Pods-MKVideoCacher_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7227FD370CD00594AE198DB77461D35 /* Pods-MKVideoCacher_Tests-dummy.m */; };
+		A2810AB94649F676E0223C48155478E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F9E8C7CD87BD06E62FA94C5AF27786D8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360D344FD7A5F4BEF9854097106521C /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69022E5339D4507DF587D33A7608DD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37422B3588CB3125312F3418A827EFC4;
+			remoteInfo = MKVideoCacher;
+		};
+		954D92C05A354036AB73BA37CEC580CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF47DE85508CA7D02E7C9A690AF7B64C;
+			remoteInfo = "Pods-MKVideoCacher_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A79BE2E57972C59727D1D518C59743 /* Pods-MKVideoCacher_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKVideoCacher_Example-Info.plist"; sourceTree = "<group>"; };
+		13ACFB14C61E81DE6E8A538326296655 /* Pods-MKVideoCacher_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKVideoCacher_Tests-Info.plist"; sourceTree = "<group>"; };
+		1F9FEE30EAFB933D22334EFF10F644B2 /* Pods-MKVideoCacher_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKVideoCacher_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		254C57298508FB396CD1A85A293A30D1 /* Pods-MKVideoCacher_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKVideoCacher_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BAD01F84B89F7B7F3CDD5640AD2035A /* Pods-MKVideoCacher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKVideoCacher_Example.release.xcconfig"; sourceTree = "<group>"; };
+		31633D031A83F5BF03DCE3D558B0C6C8 /* Pods-MKVideoCacher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKVideoCacher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		385130676B1A3EA1FFCB99735C2898EE /* Pods-MKVideoCacher_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKVideoCacher_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B011B4F41DA42718EE5BA561562F523 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53659E951D49EAB1BCD5AA5459869DAF /* MKVideoCacher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKVideoCacher.modulemap; sourceTree = "<group>"; };
+		629F684AAB4EDB897BFFE6670D7A4F45 /* MKVideoCacher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MKVideoCacher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67F6AB007871217DDB44837C7B9600D6 /* MKVideoCacher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKVideoCacher.release.xcconfig; sourceTree = "<group>"; };
+		6B2FD33EE65DFC1148F42C7A0FAC3473 /* MKVideoCacher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKVideoCacher-prefix.pch"; sourceTree = "<group>"; };
+		78EE27616F26A6B592D744CFDD7F891A /* Pods_MKVideoCacher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MKVideoCacher_Example.framework; path = "Pods-MKVideoCacher_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790FAC18A959368EC3A858287375D345 /* Pods-MKVideoCacher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKVideoCacher_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		79C25960F190B28D1273E17E7642B275 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E07FC502F14737210B95A183ED9BCA4 /* Pods_MKVideoCacher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MKVideoCacher_Tests.framework; path = "Pods-MKVideoCacher_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8069FC9D7C57AE12B1B178FFF4FD660C /* MKVideoCacher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKVideoCacher-umbrella.h"; sourceTree = "<group>"; };
+		8360D344FD7A5F4BEF9854097106521C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MKVideoCacher/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		86D0A1D537828F72F9319A626CBB9D9E /* MKVideoCacher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKVideoCacher.framework; path = MKVideoCacher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		876421716F64CB3A2EC9D188EEBAF8B7 /* Pods-MKVideoCacher_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKVideoCacher_Example-dummy.m"; sourceTree = "<group>"; };
+		9AC40ED6D14CDFB320E87329C848A299 /* Pods-MKVideoCacher_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKVideoCacher_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40F66D73AAC6DC6F6EBAAAEE38E6516 /* Pods-MKVideoCacher_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKVideoCacher_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A7EF0F6860D0551890CCBB0E3A4790DA /* Pods-MKVideoCacher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKVideoCacher_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7227FD370CD00594AE198DB77461D35 /* Pods-MKVideoCacher_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKVideoCacher_Tests-dummy.m"; sourceTree = "<group>"; };
+		D1A2DDF5F64F7C7407C945603BAE1CC3 /* Pods-MKVideoCacher_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKVideoCacher_Example-umbrella.h"; sourceTree = "<group>"; };
+		D611312918D9E9E168F2D903A081648C /* MKVideoCacher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKVideoCacher.debug.xcconfig; sourceTree = "<group>"; };
+		E141BD28711BE01C8C0A44757F80AF39 /* Pods-MKVideoCacher_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MKVideoCacher_Example.modulemap"; sourceTree = "<group>"; };
+		E4AD11C1326C52A764802EE6BBF37B99 /* MKVideoCacher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKVideoCacher-dummy.m"; sourceTree = "<group>"; };
+		E5B49FEBEE16AA0BF6F09FF406C3E37D /* MKVideoCacher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MKVideoCacher-Info.plist"; sourceTree = "<group>"; };
+		F06DB239CB88364980FCFE791EA15205 /* Pods-MKVideoCacher_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKVideoCacher_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F933EA1BC93BF9112A1AD90C837F594F /* Pods-MKVideoCacher_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MKVideoCacher_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30BF35D4F46EC7127234610E2A954E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124758C8A7E2FE117FF0410284019084 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BA49087A4B971151E5D74CC40EE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695602188E90B5090CCAE45B124BB373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C926FB465C5225E2D6587E03C6B8CF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2810AB94649F676E0223C48155478E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0944D3AF05CF1CC8E0128D342E4D1035 /* Pods-MKVideoCacher_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E141BD28711BE01C8C0A44757F80AF39 /* Pods-MKVideoCacher_Example.modulemap */,
+				254C57298508FB396CD1A85A293A30D1 /* Pods-MKVideoCacher_Example-acknowledgements.markdown */,
+				1F9FEE30EAFB933D22334EFF10F644B2 /* Pods-MKVideoCacher_Example-acknowledgements.plist */,
+				876421716F64CB3A2EC9D188EEBAF8B7 /* Pods-MKVideoCacher_Example-dummy.m */,
+				9AC40ED6D14CDFB320E87329C848A299 /* Pods-MKVideoCacher_Example-frameworks.sh */,
+				02A79BE2E57972C59727D1D518C59743 /* Pods-MKVideoCacher_Example-Info.plist */,
+				D1A2DDF5F64F7C7407C945603BAE1CC3 /* Pods-MKVideoCacher_Example-umbrella.h */,
+				790FAC18A959368EC3A858287375D345 /* Pods-MKVideoCacher_Example.debug.xcconfig */,
+				2BAD01F84B89F7B7F3CDD5640AD2035A /* Pods-MKVideoCacher_Example.release.xcconfig */,
+			);
+			name = "Pods-MKVideoCacher_Example";
+			path = "Target Support Files/Pods-MKVideoCacher_Example";
+			sourceTree = "<group>";
+		};
+		124F1FA02FFBEE78D6C3E1C4F4C8810E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53659E951D49EAB1BCD5AA5459869DAF /* MKVideoCacher.modulemap */,
+				E4AD11C1326C52A764802EE6BBF37B99 /* MKVideoCacher-dummy.m */,
+				E5B49FEBEE16AA0BF6F09FF406C3E37D /* MKVideoCacher-Info.plist */,
+				6B2FD33EE65DFC1148F42C7A0FAC3473 /* MKVideoCacher-prefix.pch */,
+				8069FC9D7C57AE12B1B178FFF4FD660C /* MKVideoCacher-umbrella.h */,
+				D611312918D9E9E168F2D903A081648C /* MKVideoCacher.debug.xcconfig */,
+				67F6AB007871217DDB44837C7B9600D6 /* MKVideoCacher.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MKVideoCacher";
+			sourceTree = "<group>";
+		};
+		3C3A32F56CB947E90BDD230D5A90EEC3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				79C25960F190B28D1273E17E7642B275 /* LICENSE */,
+				629F684AAB4EDB897BFFE6670D7A4F45 /* MKVideoCacher.podspec */,
+				3B011B4F41DA42718EE5BA561562F523 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		858832A4C190B848FB6ECF960F493E2C /* Pods-MKVideoCacher_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F933EA1BC93BF9112A1AD90C837F594F /* Pods-MKVideoCacher_Tests.modulemap */,
+				F06DB239CB88364980FCFE791EA15205 /* Pods-MKVideoCacher_Tests-acknowledgements.markdown */,
+				385130676B1A3EA1FFCB99735C2898EE /* Pods-MKVideoCacher_Tests-acknowledgements.plist */,
+				C7227FD370CD00594AE198DB77461D35 /* Pods-MKVideoCacher_Tests-dummy.m */,
+				13ACFB14C61E81DE6E8A538326296655 /* Pods-MKVideoCacher_Tests-Info.plist */,
+				A40F66D73AAC6DC6F6EBAAAEE38E6516 /* Pods-MKVideoCacher_Tests-umbrella.h */,
+				31633D031A83F5BF03DCE3D558B0C6C8 /* Pods-MKVideoCacher_Tests.debug.xcconfig */,
+				A7EF0F6860D0551890CCBB0E3A4790DA /* Pods-MKVideoCacher_Tests.release.xcconfig */,
+			);
+			name = "Pods-MKVideoCacher_Tests";
+			path = "Target Support Files/Pods-MKVideoCacher_Tests";
+			sourceTree = "<group>";
+		};
+		96E0261F468E18359AF6512D989AF0FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DC6C39E5E2C3B3F6BA3F9A21FD811 /* MKVideoCacher */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A7CF835D60A845F139240C3A68DE48E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86D0A1D537828F72F9319A626CBB9D9E /* MKVideoCacher.framework */,
+				78EE27616F26A6B592D744CFDD7F891A /* Pods_MKVideoCacher_Example.framework */,
+				7E07FC502F14737210B95A183ED9BCA4 /* Pods_MKVideoCacher_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD8DC6C39E5E2C3B3F6BA3F9A21FD811 /* MKVideoCacher */ = {
+			isa = PBXGroup;
+			children = (
+				8360D344FD7A5F4BEF9854097106521C /* ReplaceMe.swift */,
+				3C3A32F56CB947E90BDD230D5A90EEC3 /* Pod */,
+				124F1FA02FFBEE78D6C3E1C4F4C8810E /* Support Files */,
+			);
+			name = MKVideoCacher;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				96E0261F468E18359AF6512D989AF0FB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A7CF835D60A845F139240C3A68DE48E9 /* Products */,
+				E501A6C2E7B524B6068D5D3CF0715AF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E501A6C2E7B524B6068D5D3CF0715AF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0944D3AF05CF1CC8E0128D342E4D1035 /* Pods-MKVideoCacher_Example */,
+				858832A4C190B848FB6ECF960F493E2C /* Pods-MKVideoCacher_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		265B7996D39BF8E9D48A163FA010F584 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1081C774C988C35F80994285D3EC73 /* Pods-MKVideoCacher_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A57BB6D9A8181142F5E056EEE26A66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C72338A27674034C2A5815F8FCB850 /* MKVideoCacher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91C7087AD5D3337AEEAA81B2DD7CAF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512406DCD73149C9D17E9711940E9518 /* Pods-MKVideoCacher_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		094954F45ECCBFDDDD8588BC023822F9 /* Pods-MKVideoCacher_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F26C80AFB5686B36F26C35747606B85 /* Build configuration list for PBXNativeTarget "Pods-MKVideoCacher_Tests" */;
+			buildPhases = (
+				265B7996D39BF8E9D48A163FA010F584 /* Headers */,
+				0ABFD916B5BC697155793D9131A4ED25 /* Sources */,
+				C926FB465C5225E2D6587E03C6B8CF1C /* Frameworks */,
+				8D3E7F92AB6373445460E856EA7A198F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE46BE9B410F1D10FB9CD8F47D3C978 /* PBXTargetDependency */,
+			);
+			name = "Pods-MKVideoCacher_Tests";
+			productName = "Pods-MKVideoCacher_Tests";
+			productReference = 7E07FC502F14737210B95A183ED9BCA4 /* Pods_MKVideoCacher_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37422B3588CB3125312F3418A827EFC4 /* MKVideoCacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97DCDF573F9F3C44422AC8B07B62EC80 /* Build configuration list for PBXNativeTarget "MKVideoCacher" */;
+			buildPhases = (
+				57A57BB6D9A8181142F5E056EEE26A66 /* Headers */,
+				8CACF773621BD58F7EBC09A131162ABC /* Sources */,
+				397BA49087A4B971151E5D74CC40EE00 /* Frameworks */,
+				5BA61C8DAABB86EFB294B7219240F89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKVideoCacher;
+			productName = MKVideoCacher;
+			productReference = 86D0A1D537828F72F9319A626CBB9D9E /* MKVideoCacher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF47DE85508CA7D02E7C9A690AF7B64C /* Pods-MKVideoCacher_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F90377F23E14C8A83673B77EA3EE7B /* Build configuration list for PBXNativeTarget "Pods-MKVideoCacher_Example" */;
+			buildPhases = (
+				E91C7087AD5D3337AEEAA81B2DD7CAF9 /* Headers */,
+				28A26195F7A162FBC59D7FF73EDFDFF4 /* Sources */,
+				30BF35D4F46EC7127234610E2A954E67 /* Frameworks */,
+				CD194A2E2EF71D571B0F5F41BBB14F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2B392515F695CA8527D66D5E52ACF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MKVideoCacher_Example";
+			productName = "Pods-MKVideoCacher_Example";
+			productReference = 78EE27616F26A6B592D744CFDD7F891A /* Pods_MKVideoCacher_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A7CF835D60A845F139240C3A68DE48E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37422B3588CB3125312F3418A827EFC4 /* MKVideoCacher */,
+				FF47DE85508CA7D02E7C9A690AF7B64C /* Pods-MKVideoCacher_Example */,
+				094954F45ECCBFDDDD8588BC023822F9 /* Pods-MKVideoCacher_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA61C8DAABB86EFB294B7219240F89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3E7F92AB6373445460E856EA7A198F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD194A2E2EF71D571B0F5F41BBB14F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ABFD916B5BC697155793D9131A4ED25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A737F8FB5E79347C71991928582BD3 /* Pods-MKVideoCacher_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A26195F7A162FBC59D7FF73EDFDFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F62E4489F67F1354D4B5D275BAEDD3 /* Pods-MKVideoCacher_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CACF773621BD58F7EBC09A131162ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69400224F68FD610EE9063745F988B78 /* MKVideoCacher-dummy.m in Sources */,
+				F9E8C7CD87BD06E62FA94C5AF27786D8 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A2B392515F695CA8527D66D5E52ACF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKVideoCacher;
+			target = 37422B3588CB3125312F3418A827EFC4 /* MKVideoCacher */;
+			targetProxy = 69022E5339D4507DF587D33A7608DD1B /* PBXContainerItemProxy */;
+		};
+		3EE46BE9B410F1D10FB9CD8F47D3C978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MKVideoCacher_Example";
+			target = FF47DE85508CA7D02E7C9A690AF7B64C /* Pods-MKVideoCacher_Example */;
+			targetProxy = 954D92C05A354036AB73BA37CEC580CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BF8CB562D1C689E0708102BABCFCC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790FAC18A959368EC3A858287375D345 /* Pods-MKVideoCacher_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKVideoCacher_Example/Pods-MKVideoCacher_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKVideoCacher_Example/Pods-MKVideoCacher_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E8F06764B6B4909A31876FC923BD42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31633D031A83F5BF03DCE3D558B0C6C8 /* Pods-MKVideoCacher_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKVideoCacher_Tests/Pods-MKVideoCacher_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKVideoCacher_Tests/Pods-MKVideoCacher_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		507D00890814A9A79DD270DA1A28BD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EF0F6860D0551890CCBB0E3A4790DA /* Pods-MKVideoCacher_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKVideoCacher_Tests/Pods-MKVideoCacher_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKVideoCacher_Tests/Pods-MKVideoCacher_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D296A4420A7F9305332C648AA59CA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F6AB007871217DDB44837C7B9600D6 /* MKVideoCacher.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKVideoCacher/MKVideoCacher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKVideoCacher/MKVideoCacher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKVideoCacher/MKVideoCacher.modulemap";
+				PRODUCT_MODULE_NAME = MKVideoCacher;
+				PRODUCT_NAME = MKVideoCacher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DFA073B981C2D89A21B85E75EA1525D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BAD01F84B89F7B7F3CDD5640AD2035A /* Pods-MKVideoCacher_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MKVideoCacher_Example/Pods-MKVideoCacher_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKVideoCacher_Example/Pods-MKVideoCacher_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ECB1A4FE4DBD3BC12EF186D2D1C449A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D611312918D9E9E168F2D903A081648C /* MKVideoCacher.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKVideoCacher/MKVideoCacher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKVideoCacher/MKVideoCacher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKVideoCacher/MKVideoCacher.modulemap";
+				PRODUCT_MODULE_NAME = MKVideoCacher;
+				PRODUCT_NAME = MKVideoCacher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F90377F23E14C8A83673B77EA3EE7B /* Build configuration list for PBXNativeTarget "Pods-MKVideoCacher_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF8CB562D1C689E0708102BABCFCC6F /* Debug */,
+				7DFA073B981C2D89A21B85E75EA1525D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F26C80AFB5686B36F26C35747606B85 /* Build configuration list for PBXNativeTarget "Pods-MKVideoCacher_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8F06764B6B4909A31876FC923BD42A /* Debug */,
+				507D00890814A9A79DD270DA1A28BD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97DCDF573F9F3C44422AC8B07B62EC80 /* Build configuration list for PBXNativeTarget "MKVideoCacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB1A4FE4DBD3BC12EF186D2D1C449A1 /* Debug */,
+				5D296A4420A7F9305332C648AA59CA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

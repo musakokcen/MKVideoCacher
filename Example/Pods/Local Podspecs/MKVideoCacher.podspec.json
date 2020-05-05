@@ -1,0 +1,22 @@
+{
+  "name": "MKVideoCacher",
+  "version": "0.1.0",
+  "summary": "A short description of MKVideoCacher.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/musatrtr@gmail.com/MKVideoCacher",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "musatrtr@gmail.com": "musa.kokcen@pineal.com.tr"
+  },
+  "source": {
+    "git": "https://github.com/musatrtr@gmail.com/MKVideoCacher.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MKVideoCacher/Classes/**/*"
+}

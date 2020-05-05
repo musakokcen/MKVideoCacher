@@ -1,0 +1,6 @@
+framework module Pods_MKVideoCacher_Tests {
+  umbrella header "Pods-MKVideoCacher_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
